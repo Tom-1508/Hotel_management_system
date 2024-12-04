@@ -1,0 +1,38 @@
+<!-- login.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles/style.css"> <!-- Link your existing CSS -->
+  <title>Login</title>
+</head>
+<body>
+  <nav class="nav__bar">
+    <a href="index.html" class="logo"><img src="/assets/logo.png" alt="Logo"></a>
+    <button id="menu-btn"><i class="ri-menu-line"></i></button>
+    <ul class="nav__links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+    </ul>
+  </nav>
+
+  <section class="section__container">
+    <div class="login__container">
+      <h2 class="section__header">Login</h2>
+      <form id="loginForm">
+        <div class="input__group">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Enter your username" required />
+        </div>
+        <div class="input__group">
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter your password" required />
+        </div>
+        <button type="submit" class="btn">Login</button>
+      </form>
+    </div>
+  </section>
+
+  <script src="/js/login.js"></script> <!-- Link to your JS file -->
+</body>
+</html>
